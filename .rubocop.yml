@@ -3,7 +3,6 @@ require:
   - rubocop-rails
 
 # Relaxed.Ruby.Style
-
 AllCops:
   Exclude:
     - 'spec/dummy/**/*'
