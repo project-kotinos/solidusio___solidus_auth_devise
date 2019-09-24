@@ -42,6 +42,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency "gem-release", "~> 2.0"
   s.add_development_dependency "poltergeist", "~> 1.5"
   s.add_development_dependency "rspec-rails", "~> 3.3"
+  s.add_development_dependency "rspec"
+  s.add_development_dependency "yourbase-rspec-skipper"
   s.add_development_dependency "rubocop", "~> 0.71"
   s.add_development_dependency "rubocop-performance", "~> 1.4"
   s.add_development_dependency "rubocop-rails", "~> 2.2"
