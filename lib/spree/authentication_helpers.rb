@@ -19,9 +19,17 @@ module Spree
     end
 
     if SolidusSupport.frontend_available?
-      delegate :login_path, :signup_path, :logout_path,
-               to: :spree,
-               prefix: :spree
+      def spree_login_path
+        spree.login_path
+      end
+
+      def spree_signup_path
+        spree.signup_path
+      end
+
+      def spree_logout_path
+        spree.logout_path
+      end
     end
   end
 end
