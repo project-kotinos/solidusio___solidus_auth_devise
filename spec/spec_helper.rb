@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+require 'yourbase/rspec/skipper'
 require "simplecov"
 SimpleCov.start "rails"
 
